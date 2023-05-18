@@ -43,10 +43,9 @@ body {
   clear: both;
 }
 .resume-main {
-  width: 700px;
-  height: 1100px;
+
   background: linear-gradient(var(--one), var(--two));
-  margin: 50px auto;
+ 
   box-shadow: 5px 5px 5px 5px #54585d33;
 }
 .left-box {
