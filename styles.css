@@ -15,6 +15,9 @@
 body {
   background: var(--background);
 }
+.dontno {
+    list-style-type: none;
+}
 .col-div-3 {
   width: 25%;
   float: left;
@@ -41,7 +44,7 @@ body {
 }
 .resume-main {
   width: 700px;
-  height: 900px;
+  height: 1100px;
   background: linear-gradient(var(--one), var(--two));
   margin: 50px auto;
   box-shadow: 5px 5px 5px 5px #54585d33;
@@ -55,7 +58,7 @@ body {
   width: 65%;
   float: left;
   background-color: var(--white);
-  height: 800px;
+  height: 1000px;
   margin: 50px 0px;
   border-radius: 50px 0px 0px 50px;
   padding: 30px 50px;
@@ -106,7 +109,7 @@ body {
   content: "";
   display: block;
   background: var(--white);
-  width: 50%;
+  width: 70%;
   height: 100%;
   border-radius: 9px;
 }
@@ -120,7 +123,51 @@ body {
   content: "";
   display: block;
   background: var(--white);
-  width: 40%;
+  width: 55%;
+  height: 100%;
+  border-radius: 9px;
+}
+
+#progress2 {
+  background: var(--process);
+  border-radius: 13px;
+  height: 8px;
+  width: 100%;
+}
+#progress2:after {
+  content: "";
+  display: block;
+  background: var(--white);
+  width: 85%;
+  height: 100%;
+  border-radius: 9px;
+}
+#progress3 {
+  background: var(--process);
+  border-radius: 13px;
+  height: 8px;
+  width: 100%;
+}
+#progress3:after {
+  content: "";
+  display: block;
+  background: var(--white);
+  width: 50%;
+  height: 100%;
+  border-radius: 9px;
+}
+
+#progress4 {
+  background: var(--process);
+  border-radius: 13px;
+  height: 8px;
+  width: 100%;
+}
+#progress4:after {
+  content: "";
+  display: block;
+  background: var(--white);
+  width: 70%;
   height: 100%;
   border-radius: 9px;
 }
@@ -155,7 +202,7 @@ body {
   border-radius: 20px;
   font-size: 14px !important;
 }
-.inp {
+p {
   color: var(--white);
   font-size: 11px;
 }
@@ -193,8 +240,9 @@ h1 span {
 .p5 {
   font-weight: 700;
   color: var(--black);
+  font-size: 16px;
 }
 .span1 {
-  font-size: 12px;
+  font-size: 14px;
   color: var(--black);
 }
