@@ -16,7 +16,7 @@ body {
   background: var(--background);
 }
 .dontno {
-    list-style-type: none;
+  list-style-type: none;
 }
 .col-div-3 {
   width: 25%;
@@ -245,4 +245,7 @@ h1 span {
 .span1 {
   font-size: 14px;
   color: var(--black);
+}
+.displayOn500px{
+  display:none;
 }
